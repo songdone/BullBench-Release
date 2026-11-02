@@ -4,8 +4,9 @@
 
 BullBench 牛犇是为飞牛 fnOS 打造的 NAS 性能测试应用：真实负载跑分（CPU / 内存 / 存储）、统一综合评分、历史成绩对比、跨设备公开榜与竞技场。测试本机离线完成，云端上传与公开完全由你逐项授权。
 
-- [下载与版本发布（源码仓 Release）](https://github.com/songdone/bullbench/releases)
 - [提交问题或建议](https://github.com/songdone/BullBench-Release/issues)
+
+> 安装包统一通过 fnOS 应用中心分发，本仓库不提供应用安装包下载。
 
 ## 当前版本：0.9.2（首发候选）
 
@@ -20,11 +21,8 @@ BullBench 牛犇是为飞牛 fnOS 打造的 NAS 性能测试应用：真实负�
 
 ## 安装（fnOS 1.2.0401 及以上）
 
-1. 在 fnOS 应用中心搜索「牛犇」安装（推荐），或从 [Release 页](https://github.com/songdone/bullbench/releases) 下载对应架构的 FPK 手动导入：
-   - `bullbench-0.9.2-x86.fpk`（x86-64）
-   - `bullbench-0.9.2-arm.fpk`（ARM64）
-2. 安装前可用 `SHA256SUMS-0.9.2.txt` 校验文件完整性。
-3. 打开应用 → 开始测试 → 完成核心三项 → 得到综合分；是否上传、是否公开由你在设置页逐项决定，默认全部关闭。
+1. 在 fnOS 应用中心搜索「牛犇」安装。
+2. 打开应用 → 开始测试 → 完成核心三项 → 得到综合分；是否上传、是否公开由你在设置页逐项决定，默认全部关闭。
 
 ## 升级与数据安全
 
